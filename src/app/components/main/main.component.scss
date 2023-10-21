@@ -1,0 +1,78 @@
+.main{
+    border: 4px  solid var(--light-grey) ;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80vw;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    
+}
+.main img{
+    width: 30px;
+    align-self: center;
+    align-items: center;
+    position: absolute;
+}
+.main .container-img{
+  position: absolute;
+}
+.main .horario-p{
+    align-items: center;
+    align-self: center;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    left: 3.9vh;
+    font-weight: 700;
+    color: var( --light-grey);
+    
+}
+.main h1{
+    border-bottom: solid 2px var( --light-grey);
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var( --light-grey);
+
+    
+}
+.main .conteiner-horario{
+    border-bottom: solid 2px var( --light-grey);
+    position: relative;
+
+}
+.main .tempo-checkBox{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid var( --light-grey);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 15px
+    ;
+}
+.main .paragrafo{
+    display: inline;
+    font-weight: 700;
+    align-items: center;
+    color: var( --light-grey);
+    align-items: center;
+    align-self: center;
+    
+}
+.main .horario{
+    position: absolute;
+    right: 0;
+    align-items: center;
+    align-self: center;
+}
