@@ -17,27 +17,27 @@
 @font-face {
     font-family: 'Gotham';
     src: url('assets/fonts/gotham-black.woff2');
-    font-weight: 300;
+    font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
     src: url('assets/fonts/gotham-bold.woff2');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gotham';
-    src: url('assets/fonts/gotham-book.woff2');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
+    src: url('assets/fonts/gotham-book.woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
     src: url('assets/fonts/gotham-light.woff2');
-    font-weight: 900;
+    font-weight: 300;
     font-style: normal;
 }
