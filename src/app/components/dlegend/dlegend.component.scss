@@ -1,17 +1,31 @@
-section{
+section {
     width: 80vw;
-    height: 200px;
     max-width: 70%;
     margin: 0 auto;
     margin-top: 50px;
     background-color: #e9e9e9;
-    position: relative;
+    overflow: hidden; 
+    height: 20vh;
 }
-.mascaras img{
-    position: absolute;
-    width: 100px;
+
+.container-dlegend {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
 }
-.toalha img{
-    position: absolute;
+
+.mascara, .toalha, .bebedouro, .vestiario {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.images img {
     width: 100px;
+    margin-bottom: 10px; 
+}
+
+.mascara h1, .toalha h1, .bebedouro h1 .vestiario h1 {
+    margin: 0; 
 }
